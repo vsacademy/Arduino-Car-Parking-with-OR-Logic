@@ -36,7 +36,7 @@
        }
     }
   
-  if(flag1==1 && flag2==1)
+  if(flag1==1 || flag2==1) // Replacing AND with OR logic
   {
     delay (1000);
     i.write(0);
